@@ -2,7 +2,7 @@ import * as admin from "firebase-admin";
 import express from "express";
 import { createServer } from "http";
 import { Server as WebSocketServer } from "socket.io";
-import {dotenv} from dotenv;
+import {dotenv} from 'dotenv';
 
 const app = express();
 const httpServer = createServer(app);

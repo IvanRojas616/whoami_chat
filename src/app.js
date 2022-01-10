@@ -11,6 +11,7 @@ const port = process.env.PORT || 3000;
 
 //env variables
 dotenv.config();
+
 //serialize json credentials for google
 const credentials = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS);
 

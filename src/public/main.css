@@ -1,0 +1,11 @@
+body{
+    height: 100vh;
+}
+
+.messages{
+    height:75vh;
+}
+
+li{
+    list-style: none;
+}
